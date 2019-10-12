@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="../p5/p5.min.js"></script>
+    <script src="../p5/addons/p5.dom.js"></script>
+    <script src = "../p5/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <style> body {padding: 0; margin: 0;}
+    body{
+      width: 50%;
+      margin: auto;
+      background-color: #05BDFC;
+    }
+    h1{
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>
+      Welcome to My Magical Garden!
+    </h1>
+    <div id ="game_container">
+
+    </div>
+    <div>
+    <h2>
+      This Magical Garden starts off with a seed class in order to build the flower. The garden is made when the user
+      clicks their mouse. A seed is dropped according to the mouse's x position and starts to grow. When it gets
+      to the bottom, it enacts the function called expand, which grows the seed to a certain point. After a
+      function called growtall is enacted which makes a stem starts to grow to a random height. After it gets
+      to its height, the function growcircle creates the center of the flower which grows to a random radius
+      size. Then the function growpetals sproats the petals that are portional with the center of the flower.
+      Lastly, the petals rotate as if they are being blown in the wind. For an extra feature, the petals rotate
+      faster when the mouse is close to them!
+
+    </h2>
+  </div>
+  </body>
+</html>
